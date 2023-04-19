@@ -1,4 +1,4 @@
-﻿namespace VRPTW.Model;
+﻿namespace VRPTW.Core;
 
 public class Solver
 {
@@ -33,7 +33,7 @@ public class Solver
 
     private static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> list, int length)
     {
-        return (length == 1)
+        return length == 1
             ? list.Select(t => new T[] { t })
             : GetPermutations(list, length - 1)
                 .SelectMany(
@@ -109,7 +109,7 @@ public class Solver
 
                 var plan = new Plan() { RouteBuilders = nonEmptyBuilders };
                 var id = plan.Identifier;
-                
+
                 if (plans.ContainsKey(plan.Identifier))
                 {
                     duplicatePlans++;

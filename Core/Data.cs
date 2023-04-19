@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace VRPTW.Model;
+namespace VRPTW.Core;
 
 public class Data
 {

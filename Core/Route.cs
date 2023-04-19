@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace VRPTW.Model;
+namespace VRPTW.Core;
 
 public class Route : List<Customer>
 {

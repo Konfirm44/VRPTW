@@ -1,4 +1,4 @@
-﻿using VRPTW.Model;
+﻿using VRPTW.Core;
 
 var fileName = "data.json";
 var data = await Data.ReadFromJsonFile(fileName);

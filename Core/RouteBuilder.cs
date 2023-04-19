@@ -1,4 +1,4 @@
-﻿namespace VRPTW.Model;
+﻿namespace VRPTW.Core;
 
 public class RouteBuilder : List<int>
 {
