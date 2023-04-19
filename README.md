@@ -5,7 +5,7 @@ filtering out duplicates and rejecting the invalid ones, then selecting the best
 
 ## Setup
 
-Modify the parameters in `Program.cs` to suit your needs and run the app.
+Modify the parameters in `Program.cs` to suit your needs and run the app (through Visual Studio or using the `dotnet run` CLI command).
 
 ## Data
 
